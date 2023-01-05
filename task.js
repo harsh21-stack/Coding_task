@@ -1,4 +1,4 @@
-function findOptimalBlock(blocks, reqs) {
+function apartmentHunting(blocks, reqs) {
   let bestIndex = -1;
   let bestDistance = Infinity;
   
@@ -31,3 +31,5 @@ function findOptimalBlock(blocks, reqs) {
   }
   return bestIndex;
 }
+
+exports.apartmentHunting=apartmentHunting;
